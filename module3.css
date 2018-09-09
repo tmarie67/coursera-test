@@ -1,0 +1,152 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #dd544a;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+#header-nav{
+	background-color: #63cbd3;
+	border-radius:0;
+	border:0;
+}
+
+/*#logo-img{
+	background: url('../images/Hands_tree_logo.jpg') no-repeat;
+	width: 200px;
+	height: 200px;
+	margin: 10px 15px 10px 0;
+}*/
+
+.navbar-brand h1{ /* restaurant name*/
+	font-family: 'Merriweather', sans-serif;
+	color: #ffb72f;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #3F0C1F;
+	margin-top:0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+h2{
+	background-color: #dd544a;
+	text-align:center;
+}
+
+h3{
+	text-align:center;
+	padding:0;
+	margin: 0px 0px 5px 0px;
+}
+
+.p, h3 {
+	color:#3F0C1F;
+	
+}
+
+#module3-list a {
+    background-color: white;	
+	color: #ffb72f;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#module3-list a:hover{
+	background:#dd544a;
+}
+
+/*#module3-list a span{
+	font-size 1.8em;
+}****notused*/
+
+.navbar-toggle .icon-bar{
+	display: block;
+	width:22px;
+	height: 2px;
+	border-radius: 1px;
+
+}
+
+.navbar-toggle .icon-bar + .icon-bar{
+	margin-top: 4px;
+}
+
+@media(min-width: 768px){
+	.navbar-toggle{
+		display: none;
+	}
+}
+.navbar-nav{
+	margin: 1px -15px;
+	scroll-behavior: none;
+}
+.navbar-nav{	
+	line-height: 20px;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #dd544a;
+	background-color:#ffb72f;
+}
+/* END HEADER*/
+
+/**********Desktop-Medium devices************/
+@media (min-width: 992px){
+	.container .jumbotron{
+		background-color: #ffb72f;
+		height:1000px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+
+}
+
+
+/*************Table-small devices***********/
+@media (min-width: 768px) and (max-width: 991px ) {
+	.container .jumbotron{
+		background-color: #ffb72f;
+		height:750px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+
+}
+
+/****************Mobile-extra-small devices*********/
+@media (max-width: 767px){
+	
+	.navbar-brand{
+		padding-top:10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size:5vw;
+	}
+	.navbar-brand p{
+		text-transform: uppercase;
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	#module3-nav a {
+		font-size: 1.8em;
+	}
+
+	.container .jumbotron{
+		background-color: #ffb72f;
+		height:750px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+
+}
