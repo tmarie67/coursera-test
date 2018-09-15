@@ -13,12 +13,6 @@ body{
 	border:0;
 }
 
-/*#logo-img{
-	background: url('../images/Hands_tree_logo.jpg') no-repeat;
-	width: 200px;
-	height: 200px;
-	margin: 10px 15px 10px 0;
-}*/
 
 .navbar-brand h1{ /* restaurant name*/
 	font-family: 'Merriweather', sans-serif;
@@ -38,22 +32,16 @@ body{
 
 h2{
 	background-color: #dd544a;
-	text-align:center;
+	/*text-align:center;*/
 }
 
-h3{
-	text-align:center;
-	padding:0;
-	margin: 0px 0px 5px 0px;
-}
-
-.p, h3 {
+.p {
 	color:#3F0C1F;
 	
 }
 
 #module3-list a {
-    background-color: white;	
+    background-color: #28666e;	
 	color: #ffb72f;
 	font-weight: bold;
 	text-align: center;
@@ -63,10 +51,6 @@ h3{
 #module3-list a:hover{
 	background:#dd544a;
 }
-
-/*#module3-list a span{
-	font-size 1.8em;
-}****notused*/
 
 .navbar-toggle .icon-bar{
 	display: block;
@@ -80,7 +64,7 @@ h3{
 	margin-top: 4px;
 }
 
-@media(min-width: 768px){
+@media(min-width: 576px){
 	.navbar-toggle{
 		display: none;
 	}
@@ -100,30 +84,39 @@ h3{
 /* END HEADER*/
 
 /**********Desktop-Medium devices************/
-@media (min-width: 992px){
+@media (min-width: 768px){
 	.container .jumbotron{
 		background-color: #ffb72f;
 		height:1000px;
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
 	}
-
+	.col-xs-12{
+		width: 100%;
+	}
+	
 }
 
 
 /*************Table-small devices***********/
-@media (min-width: 768px) and (max-width: 991px ) {
+@media (min-width: 576px) and (max-width: 768px ) {
 	.container .jumbotron{
 		background-color: #ffb72f;
-		height:750px;
+		height:1000px;
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
 	}
-
+	.col-xs-12{
+		width: 100%;
+	}
+	
 }
 
 /****************Mobile-extra-small devices*********/
-@media (max-width: 767px){
+@media (max-width: 576px){
+	.col-xs-12{
+		width: 100%;
+	}
 	
 	.navbar-brand{
 		padding-top:10px;
@@ -138,6 +131,7 @@ h3{
 		font-size: .6em;
 		margin-top: 12px;
 	}
+
 	#module3-nav a {
 		font-size: 1.8em;
 	}
